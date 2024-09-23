@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Foodie Guard</string>
+    <string name="main_title" translatable="false">FoodieGuard</string>
+    <string name="home_title" translatable="false">Restaurants</string>
+    <string name="Descpription" translatable="false">
+        We are a group of developers that want to make sure everyone is safe while eating in restaurants.
+    </string>
+
+    <string name="App_info" translatable="false">
+      The purpose of our application is to ensure that restaurants deciding to be included in our registry provide information about all ingredients that may pose a threat to consumer health.
+        This way, we can assist individuals with both mild and severe allergies in choosing the best option.
+    </string>
+
+    <string name="login" translatable="false">
+        Log-in
+    </string>
+
+    <string name="emailInput" translatable="false">
+        E-mail
+    </string>
+    <string name="username" translatable="false">
+        Username
+    </string>
+    <string name="homeString" translatable="false">
+        Inicio
+    </string>
+    <string name="searchString" translatable="false">
+        Descubre
+    </string>
+    <string name="profileString" translatable="false">
+        Perfil
+    </string>
+    <string name="confirmPassword" translatable="false">
+        Confirm password
+    </string>
+    <string name="passwordInput" translatable="false">
+        Password
+    </string>
+    <string name="login_activity_label" translatable="false">Login</string>
+
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="profileTitle" translatable="false">
+        Your profile
+    </string>
+    <string name="addRestaurantTitle" translatable="false">
+        Rellena este formulario para confirmar que eres propietario de un restaurante. \nNos pondremos en contacto contigo.
+    </string>
+
+    <string name="addRestaurantConditions" translatable="false">
+        Al enviar esta solicitud aceptas nuestros terminos y condiciones sobre el control de la información de
+        tu restaurante
+    </string>
+    <string name="addRestaurantConfirmation" translatable="false">
+        La solicitud se ha enviado exitosamente, en breve nos pondremos en contacto contigo mediante el e-mail que has proporcionado.
+    </string>
+
+    <string name="mapDescription" translatable="false">
+        Recuerda activar tu ubicación si quieres buscar los restaurantes mas cercanos a ti, ya que si no está activada te mostraremos una lista aleatoria de restaurantes para que descubras lugares.
+        Siempre puedas cambiar entre la lista que te brindamos nosotros y tu lista de restaurantes favoritos a traves del botón debajo del buscador.
+    </string>
+</resources>

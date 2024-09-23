@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/custom_edittext"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_Image"
+            android:layout_width="120dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_Name"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_Image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Nombre Plato" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_Image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Name"
+            tools:text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:columnCount="14"
+            android:rowCount="1"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toEndOf="@+id/iv_Image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:tooltipText="Gluten"
+                android:layout_columnWeight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/gluten_allergen_food_allergens_icon_1837261" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Soja"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/soy_allergen_food_allergens_icon_183721" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Lácteos"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/milk_allergen_food_allergens_icon_183724" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Huevo"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/egg_allergen_food_allergens_icon_183730" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Mostaza"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/mustard_allergen_food_allergens_icon_183732" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Frutos de cáscara"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/nuts_allergen_food_allergens_icon_183722" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Sulfitos"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/sulfites_allergen_food_allergens_icon_183725" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Apio"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/celery_allergen_food_allergens_icon_183723" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Pescado"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/fish_allergen_food_allergens_icon_183728" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Crustáceos"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/crustacean_allergen_food_allergens_icon_183733" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Moluscos"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/shellfish_allergen_food_allergens_icon_183727" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Cacahuetes"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/peanuts_allergen_food_allergens_icon_183731" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Sésamo"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/sesame_allergen_food_allergens_icon_183729" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:tooltipText="Altramuces"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/lupins_allergen_food_allergens_icon_183720" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_Image"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+            tools:text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_Image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price"
+/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
